@@ -1,0 +1,7 @@
+version: "3"
+services: 
+    docker_web:
+        image: nginx:latest
+        ports:
+            - "80:80"
+        restart: unless-stopped
